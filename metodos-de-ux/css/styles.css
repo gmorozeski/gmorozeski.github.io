@@ -34,6 +34,26 @@ section {
   border-color: #183884;
 }
 
+.btn-outline-primary {
+  border-color: #183884;
+  color: #183884;
+}
+
+.btn-outline-primary:hover {
+  background-color: #183884;
+  border-color: #183884;
+}
+
+.card-body {
+  border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.card-footer {
+  background-color: #fff !important;
+  border-top: none !important;
+  padding: 0 1.25rem 1.25rem;
+}
+
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .nav-link {
    padding-right: .5rem !important;
