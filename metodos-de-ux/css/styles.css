@@ -1,0 +1,49 @@
+body {
+  padding-top: 56px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
+}
+
+.bg-light {
+  background-color: #F1F1F1 !important;
+}
+
+.bg-dark {
+  background-color: #1f1f1f  !important;
+}
+
+.bg-primary {
+  background-color: #183884 !important;
+  background: linear-gradient(180deg, #27458A 0, #3257AE 13.02%, #365FBE 100%) !important;
+}
+
+.btn-primary {
+  background-color: #183884;
+  border-color: #183884;
+}
+
+.btn-primary:hover {
+  background-color: #183884;
+  border-color: #183884;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+   padding-right: .5rem !important;
+   padding-left: .5rem !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+   padding-right: 1rem !important;
+   padding-left: 1rem !important;
+  }
+}
